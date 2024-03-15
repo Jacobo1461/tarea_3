@@ -1,0 +1,188 @@
+
+h2{
+    display: flex;     
+    justify-content: center;                                               
+}
+
+
+
+#padre{
+    background-color: green;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 30% 30% 20% 20%;
+    grid-template-rows: 100px 100px 100px 50px 50px;
+    justify-content: space-between;
+}
+
+
+
+
+.hijo1{
+    background-color: rgb(255, 166, 0);
+    /* padding: 5px; */
+    border-style: dashed;
+    border-color: blue;
+    font-size: 40px;
+    grid-column: 1/5;
+
+}
+.hijo2{
+    background-color: rgb(0, 255, 247);
+    /* padding: 5px; */
+    border-style: dashed;
+    border-color: blue;
+    font-size: 40px;
+    grid-column: 1/3;
+
+}
+.hijo3{
+    background-color: rgb(255, 0, 144);
+    /* padding: 5px; */
+    border-style: dashed;
+    border-color: blue;
+    font-size: 40px;
+    grid-column: 3/4;
+
+}
+.hijo4{
+    background-color: yellow;
+    /* padding: 5px; */
+    border-style: dashed;
+    border-color: blue;
+    font-size: 40px;
+    grid-column: 4/5;
+
+}
+.hijo5{
+    background-color: yellow;
+    /* padding: 5px; */
+    border-style: dashed;
+    border-color: blue;
+    font-size: 40px;
+    grid-column: 1/2;
+
+}
+.hijo6{
+    background-color: rgb(255, 0, 0);
+    /* padding: 5px; */
+    border-style: dashed;
+    border-color: blue;
+    font-size: 40px;
+    grid-column: 2/5;
+
+}
+.hijo7{
+    background-color: rgb(255, 0, 247);
+    /* padding: 5px; */
+    border-style: dashed;
+    border-color: blue;
+    font-size: 40px;
+    grid-column: 1/3;
+    grid-row: 4/6;
+
+}
+.hijo8{
+    background-color: yellow;
+    /* padding: 5px; */
+    border-style: dashed;
+    border-color: blue;
+    font-size: 40px;
+    grid-column: 3/5;
+
+}
+.hijo9{
+    background-color: yellow;
+    /* padding: 5px; */
+    border-style: dashed;
+    border-color: blue;
+    font-size: 40px;
+    grid-column: 3/5;
+
+}
+
+#contenedor{
+    background-color: aqua;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+
+}
+.caja1{
+    background-color: black;
+    display: flex;
+    height: 200px;
+    width: 20%;
+    margin: auto;
+}
+.caja2{
+    background-color: blue;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 40%;
+    margin: auto;
+}
+.cuadro1{
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    /* flex-direction: column; */
+    align-items: start;
+    position: relative;
+    margin: auto;
+    height: 30%;
+    width: 100%;
+    
+}
+#cuadro{
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+}
+.cuadro2{
+    background-color: rgb(11, 141, 254);
+    margin: auto;
+    height: 80%;
+    width: 45%;
+    display: flex;
+    /* align-items: start;
+    justify-content:right; */
+    position: relative;
+    bottom: end;
+   
+}
+.cuadro3{
+    background-color: rgb(137, 16, 90);
+    display: flex;
+    
+    align-items: end;
+    justify-content: left;
+    position: relative;
+    bottom: end;
+    margin: auto;
+    height: 80%;
+    width: 45%;
+   
+}
+
+.caja3{
+    background-color: blueviolet;
+    display: flex;
+    height: 200px;
+    width: 20%;
+    margin: auto;
+
+}
+
+
+
+
+
+#bootstrap{
+    display: flex; 
+}
+input{
+    margin: 10px;
+}
